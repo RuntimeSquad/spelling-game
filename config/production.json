@@ -1,0 +1,22 @@
+{
+  "projectId": "spell-bee-c218a",
+  "region": "us-central1",
+  "databaseLocation": "nam5",
+  "hostingSite": "spell-bee-c218a",
+  "origin": "https://spell-bee-c218a.web.app",
+  "firebaseWebConfig": {
+    "projectId": "spell-bee-c218a",
+    "appId": "1:704864382098:web:d941a4b4472edd62978a4b",
+    "storageBucket": "spell-bee-c218a.firebasestorage.app",
+    "apiKey": "AIzaSyCY0Rvjwb6tarR9nUVGpdmT0JGyHwOWd84",
+    "authDomain": "spell-bee-c218a.firebaseapp.com",
+    "messagingSenderId": "704864382098",
+    "measurementId": "G-KD4SX4G1TH",
+    "projectNumber": "704864382098",
+    "version": "2"
+  },
+  "appCheckEnterpriseSiteKey": "6LcYpAcuAAAAAEK_H6-aq1-GCOFIQfWPu5FpT9hJ",
+  "storageBucket": "spell-bee-c218a.firebasestorage.app",
+  "monthlyBudgetUSD": 25,
+  "reportedFunctionsCapUSD": 25
+}

@@ -1,0 +1,12 @@
+{
+  "projectId": "spell-bee-c218a",
+  "region": "us-central1",
+  "databaseLocation": "nam5",
+  "hostingSite": "spell-bee-c218a",
+  "origin": "https://spell-bee-c218a.web.app",
+  "firebaseWebConfig": null,
+  "appCheckEnterpriseSiteKey": null,
+  "storageBucket": null,
+  "monthlyBudgetUSD": 25,
+  "reportedFunctionsCapUSD": 25
+}

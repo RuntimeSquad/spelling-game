@@ -1,0 +1,467 @@
+.adventure {
+  padding: 32px 0 60px;
+}
+.adventure-hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 38px;
+  border-radius: 32px;
+  background:
+    radial-gradient(ellipse at 80% 30%, #f9eaa5 0, transparent 55%), #e9f2dd;
+  gap: 24px;
+  overflow: hidden;
+}
+.adventure-hero h1 {
+  font-size: clamp(38px, 6vw, 72px);
+  line-height: 1.05;
+  margin: 18px 0;
+}
+.adventure-hero h1 em {
+  color: #477647;
+}
+.adventure-hero p {
+  font-size: 18px;
+}
+.adventure-pills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.adventure-pills span {
+  background: #fffdf5;
+  padding: 10px 14px;
+  border-radius: 30px;
+  font-weight: 600;
+  font-size: 14px;
+}
+.adventure-bee {
+  font-size: 108px;
+  min-width: 170px;
+  position: relative;
+  text-align: center;
+  animation: bee-hover 3s ease-in-out infinite;
+}
+.adventure-bee > span {
+  position: absolute;
+  top: -12px;
+  left: 65px;
+  font-size: 40px;
+}
+.adventure-bee small {
+  display: block;
+  font-size: 18px;
+  font-weight: bold;
+  color: #365c36;
+}
+.adventure-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 320px;
+  gap: 24px;
+  margin-top: 30px;
+  align-items: start;
+}
+.adventure-sidebar {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.adventure-world {
+  padding: 30px;
+  border-radius: 26px;
+  margin-bottom: 24px;
+  position: relative;
+  overflow: hidden;
+  border: 1px solid #d6dfc4;
+}
+.adventure-world.meadow {
+  background: #edf4e2;
+}
+.adventure-world.honey {
+  background: #fff1d1;
+  border-color: #e9d59e;
+}
+.adventure-world.royal {
+  background: #efebf8;
+  border-color: #d9cfed;
+}
+.world-heading {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+.world-heading > span {
+  font-size: 48px;
+}
+.world-heading h2 {
+  margin: 0;
+  font-size: 27px;
+}
+.world-heading p {
+  margin: 6px 0;
+}
+.level-trail {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  align-items: center;
+  padding: 30px 0;
+  gap: 12px;
+}
+.level-trail::before {
+  content: "";
+  position: absolute;
+  width: 100px;
+  top: 60px;
+  bottom: 75px;
+  border-left: 5px dashed #a8b881;
+  border-right: 5px dashed #a8b881;
+  border-radius: 50%;
+  opacity: 0.6;
+}
+.level-stop {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 115px;
+}
+.stop-0,
+.stop-3 {
+  transform: translateX(-50px);
+}
+.stop-1,
+.stop-2 {
+  transform: translateX(50px);
+}
+.level-node {
+  border: 4px solid #fff;
+  border-radius: 50%;
+  background: #ecb34c;
+  width: 76px;
+  height: 76px;
+  font-size: 27px;
+  font-weight: 800;
+  color: #233d32;
+  box-shadow:
+    0 6px 0 #ae7b25,
+    0 8px 16px #233d3220;
+  cursor: pointer;
+  transition: transform 0.15s;
+}
+.level-node:hover:not(:disabled) {
+  transform: translateY(-4px);
+}
+.level-node:disabled {
+  background: #dce0d4;
+  box-shadow: 0 5px 0 #a1a897;
+  opacity: 1;
+  cursor: not-allowed;
+}
+.level-node.completed {
+  background: #6fa46d;
+  color: white;
+  box-shadow: 0 6px 0 #447646;
+}
+.map-stars {
+  font-size: 23px;
+  color: #a5ab9a;
+  letter-spacing: 2px;
+  margin-top: 5px;
+}
+.map-stars .won {
+  color: #9a6200;
+}
+.level-stop small {
+  font-size: 14px;
+  font-weight: bold;
+}
+.honey-card,
+.team-card,
+.adventure-play,
+.adventure-result {
+  padding: 26px;
+}
+.honey-card {
+  text-align: center;
+}
+.honey-jar {
+  width: 100px;
+  height: 125px;
+  border: 5px solid #ac7c29;
+  border-top-width: 12px;
+  margin: 20px auto;
+  border-radius: 15px 15px 30px 30px;
+  overflow: hidden;
+  position: relative;
+  background: #fff7e2;
+}
+.honey-jar > div {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background: repeating-linear-gradient(
+    15deg,
+    #efae32 0px,
+    #efae32 15px,
+    #f7c252 15px,
+    #f7c252 30px
+  );
+  transition: height 1s ease;
+}
+.honey-jar > span {
+  position: absolute;
+  inset: 30px 0 0;
+  font-size: 40px;
+}
+.adventure-closet {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 20px;
+}
+.adventure-closet button {
+  font-size: 14px;
+  padding: 10px;
+}
+.adventure-closet [aria-pressed="true"] {
+  outline: 2px solid #b17b22;
+  outline-offset: 2px;
+}
+.team-card input {
+  width: 100%;
+  margin: 8px 0 12px;
+}
+.team-card form + form {
+  margin-top: 24px;
+  padding-top: 24px;
+  border-top: 1px solid #d9dfd0;
+}
+.team-card progress {
+  width: 100%;
+  accent-color: #568445;
+  height: 16px;
+}
+.team-card .primary,
+.honey-card > .primary {
+  width: 100%;
+  justify-content: center;
+}
+.adventure-play {
+  margin-bottom: 24px;
+  border: 2px solid #d1dfba;
+}
+.adventure-play h2 {
+  margin: 18px 0;
+}
+.adventure-play input {
+  width: 100%;
+  margin: 8px 0 16px;
+}
+.adventure-dots {
+  display: flex;
+  gap: 12px;
+  margin: 20px 0;
+}
+.adventure-dots span {
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  background: #eef0e7;
+  color: #626f56;
+}
+.adventure-dots .done {
+  background: #477647;
+  color: white;
+}
+.adventure-dots .current {
+  background: #ecb34c;
+  color: #233d32;
+}
+.adventure-listen {
+  margin: 12px 0;
+}
+.adventure-definition {
+  font-size: 19px;
+  line-height: 1.6;
+}
+.boosters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 22px;
+}
+.boosters button {
+  font-size: 14px;
+  padding: 12px;
+}
+.booster-note {
+  border-left: 3px solid #ecb34c;
+  padding-left: 12px;
+}
+.adventure-feedback {
+  background: #edf4e2;
+  border-radius: 16px;
+  padding: 20px;
+  margin-top: 20px;
+}
+.adventure-result {
+  text-align: center;
+  background: #fff8e5;
+  margin-bottom: 24px;
+}
+.adventure-result .outfit-options {
+  justify-content: center;
+}
+.flying-stars {
+  flex-wrap: nowrap;
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  margin: 20px 0;
+}
+.flying-stars span {
+  font-size: clamp(26px, 6vw, 52px);
+  color: #b9b6a6;
+}
+.flying-stars .won {
+  color: #b57b0e;
+  animation: star-bounce 0.7s both;
+}
+.chest-reveal {
+  color: #446b38;
+  font-weight: bold;
+  animation: star-bounce 0.6s both;
+}
+.adventure-invite {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  background: #edf4e2;
+  padding: 18px 24px;
+  border-radius: 18px;
+  margin: 24px 0;
+}
+.site-header nav [aria-pressed="true"] {
+  color: #315b43;
+  text-decoration: underline;
+  text-underline-offset: 6px;
+}
+@keyframes star-bounce {
+  0% {
+    transform: scale(0.3) translateY(-35px);
+    opacity: 0;
+  }
+  65% {
+    transform: scale(1.2) translateY(4px);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+@keyframes bee-hover {
+  50% {
+    transform: translateY(-12px) rotate(4deg);
+  }
+}
+@media (max-width: 900px) {
+  .adventure-grid {
+    grid-template-columns: minmax(0, 1fr);
+  }
+  .adventure-sidebar {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .site-header {
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+  .site-header nav {
+    flex-wrap: wrap;
+  }
+}
+@media (max-width: 600px) {
+  .adventure-hero {
+    padding: 24px;
+    flex-direction: column-reverse;
+    align-items: flex-start;
+  }
+  .adventure-bee {
+    font-size: 70px;
+    min-width: 120px;
+    align-self: flex-end;
+    margin-bottom: -50px;
+  }
+  .adventure-bee > span {
+    font-size: 28px;
+    left: 45px;
+  }
+  .adventure-bee small {
+    display: none;
+  }
+  .adventure-hero h1 {
+    font-size: 40px;
+  }
+  .adventure-hero .eyebrow {
+    max-width: 65%;
+    display: block;
+  }
+  .adventure-sidebar {
+    display: flex;
+  }
+  .adventure-world {
+    padding: 22px;
+  }
+  .adventure-invite {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .site-header nav {
+    gap: 14px;
+  }
+  .site-header nav button {
+    font-size: 14px;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .adventure-bee,
+  .flying-stars .won,
+  .chest-reveal {
+    animation: none;
+  }
+  .honey-jar > div,
+  .level-node {
+    transition: none;
+  }
+}
+
+.hive-celebration {
+  background: #fff1c2;
+  border: 2px solid #c5942a;
+  border-radius: 16px;
+  padding: 16px;
+  animation: star-bounce 0.7s both;
+}
+@media (prefers-reduced-motion: reduce) {
+  .hive-celebration {
+    animation: none;
+  }
+}
+
+.booster-inventory {
+  padding: 16px 12px;
+  margin: 18px 0;
+  border-radius: 16px;
+  background: #edf4e2;
+  text-align: left;
+}
+.booster-inventory p {
+  font-size: 14px;
+  line-height: 1.7;
+  margin: 8px 0 0;
+}

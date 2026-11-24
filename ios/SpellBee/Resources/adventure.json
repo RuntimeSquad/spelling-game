@@ -1,0 +1,374 @@
+[
+  {
+    "id": 1,
+    "world": "Flower Fields",
+    "words": [
+      {
+        "word": "sun",
+        "definition": "The bright star that lights our day.",
+        "hint": "Think of a sunny morning."
+      },
+      {
+        "word": "bee",
+        "definition": "An insect that makes honey.",
+        "hint": "It rhymes with tree."
+      },
+      {
+        "word": "leaf",
+        "definition": "A flat green part of a plant.",
+        "hint": "It starts with l."
+      },
+      {
+        "word": "nest",
+        "definition": "A home built by a bird.",
+        "hint": "It rhymes with best."
+      },
+      {
+        "word": "pond",
+        "definition": "A small body of still water.",
+        "hint": "It rhymes with bond."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "world": "Flower Fields",
+    "words": [
+      {
+        "word": "bloom",
+        "definition": "To open into a flower.",
+        "hint": "There are two o letters."
+      },
+      {
+        "word": "honey",
+        "definition": "A sweet food made by bees.",
+        "hint": "It ends with ey."
+      },
+      {
+        "word": "petal",
+        "definition": "One of the colorful parts of a flower.",
+        "hint": "It starts with pet."
+      },
+      {
+        "word": "grass",
+        "definition": "Low green plants that cover a lawn.",
+        "hint": "The final s is doubled."
+      },
+      {
+        "word": "cloud",
+        "definition": "A visible mass of tiny water drops in the sky.",
+        "hint": "It starts with cl."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "world": "Flower Fields",
+    "words": [
+      {
+        "word": "garden",
+        "definition": "A place where flowers or vegetables are grown.",
+        "hint": "It ends with den."
+      },
+      {
+        "word": "flower",
+        "definition": "The colorful part of a plant that makes seeds.",
+        "hint": "Think flow, then er."
+      },
+      {
+        "word": "yellow",
+        "definition": "The color of a ripe lemon.",
+        "hint": "Double the l."
+      },
+      {
+        "word": "spring",
+        "definition": "The season after winter.",
+        "hint": "It begins with spr."
+      },
+      {
+        "word": "breeze",
+        "definition": "A gentle wind.",
+        "hint": "Use two e letters."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "world": "Flower Fields",
+    "words": [
+      {
+        "word": "rabbit",
+        "definition": "A small animal with long ears.",
+        "hint": "Double the b."
+      },
+      {
+        "word": "meadow",
+        "definition": "A field of grass and wildflowers.",
+        "hint": "It ends with dow."
+      },
+      {
+        "word": "branch",
+        "definition": "A woody part that grows out from a tree trunk.",
+        "hint": "It starts with br."
+      },
+      {
+        "word": "pollen",
+        "definition": "A fine powder made by flowers.",
+        "hint": "Double the l."
+      },
+      {
+        "word": "sunset",
+        "definition": "The time when the sun disappears below the horizon.",
+        "hint": "Join sun and set."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "world": "Honey Hollow",
+    "words": [
+      {
+        "word": "nectar",
+        "definition": "A sweet liquid found in flowers.",
+        "hint": "It ends with tar."
+      },
+      {
+        "word": "orchard",
+        "definition": "Land planted with fruit trees.",
+        "hint": "It begins with orch."
+      },
+      {
+        "word": "harvest",
+        "definition": "To gather a crop when it is ready.",
+        "hint": "It ends with vest."
+      },
+      {
+        "word": "blossom",
+        "definition": "A flower on a tree or bush.",
+        "hint": "Double the s."
+      },
+      {
+        "word": "shelter",
+        "definition": "A place that protects from bad weather.",
+        "hint": "It starts with shel."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "world": "Honey Hollow",
+    "words": [
+      {
+        "word": "journey",
+        "definition": "A trip from one place to another.",
+        "hint": "It ends with ney."
+      },
+      {
+        "word": "curious",
+        "definition": "Eager to learn or know more.",
+        "hint": "It ends with ious."
+      },
+      {
+        "word": "whisper",
+        "definition": "To speak very softly.",
+        "hint": "Begin with wh."
+      },
+      {
+        "word": "sunshine",
+        "definition": "Light that comes directly from the sun.",
+        "hint": "Join sun and shine."
+      },
+      {
+        "word": "treasure",
+        "definition": "Something valuable that is carefully kept.",
+        "hint": "It begins with trea."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "world": "Honey Hollow",
+    "words": [
+      {
+        "word": "honeycomb",
+        "definition": "A structure of wax cells built by bees.",
+        "hint": "Join honey and comb."
+      },
+      {
+        "word": "butterfly",
+        "definition": "An insect with large colorful wings.",
+        "hint": "Join butter and fly."
+      },
+      {
+        "word": "beautiful",
+        "definition": "Very pleasing to look at.",
+        "hint": "Begin with beau."
+      },
+      {
+        "word": "woodland",
+        "definition": "Land covered with trees.",
+        "hint": "Join wood and land."
+      },
+      {
+        "word": "fragrant",
+        "definition": "Having a pleasant smell.",
+        "hint": "It ends with grant."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "world": "Honey Hollow",
+    "words": [
+      {
+        "word": "adventure",
+        "definition": "An exciting or unusual experience.",
+        "hint": "It begins with adven."
+      },
+      {
+        "word": "discovery",
+        "definition": "The act of finding something new.",
+        "hint": "It ends with very."
+      },
+      {
+        "word": "delicious",
+        "definition": "Very pleasant to taste.",
+        "hint": "It ends with cious."
+      },
+      {
+        "word": "hibernate",
+        "definition": "To spend winter in a resting state.",
+        "hint": "It starts with hiber."
+      },
+      {
+        "word": "wildflower",
+        "definition": "A flower growing without being planted by people.",
+        "hint": "Join wild and flower."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "world": "Royal Gardens",
+    "words": [
+      {
+        "word": "pollinate",
+        "definition": "To carry pollen so a plant can make seeds.",
+        "hint": "Double the l."
+      },
+      {
+        "word": "chrysalis",
+        "definition": "The stage between a caterpillar and a butterfly.",
+        "hint": "Begin with chry."
+      },
+      {
+        "word": "perennial",
+        "definition": "A plant that lives for several years.",
+        "hint": "Double the n."
+      },
+      {
+        "word": "botanical",
+        "definition": "Relating to the study of plants.",
+        "hint": "It begins with botan."
+      },
+      {
+        "word": "ecosystem",
+        "definition": "Living things and their shared environment.",
+        "hint": "Join eco and system."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "world": "Royal Gardens",
+    "words": [
+      {
+        "word": "camouflage",
+        "definition": "A disguise that helps something blend into its surroundings.",
+        "hint": "It ends with flage."
+      },
+      {
+        "word": "iridescent",
+        "definition": "Showing shifting rainbow colors in the light.",
+        "hint": "It ends with scent."
+      },
+      {
+        "word": "flourishing",
+        "definition": "Growing strongly and successfully.",
+        "hint": "Begin with flour."
+      },
+      {
+        "word": "magnificent",
+        "definition": "Very grand or impressive.",
+        "hint": "It begins with magni."
+      },
+      {
+        "word": "metamorphosis",
+        "definition": "A major change in an animal’s form as it grows.",
+        "hint": "It begins with meta."
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "world": "Royal Gardens",
+    "words": [
+      {
+        "word": "photosynthesis",
+        "definition": "The process by which plants use light to make food.",
+        "hint": "Join photo and synthesis."
+      },
+      {
+        "word": "biodiversity",
+        "definition": "The variety of living things in an environment.",
+        "hint": "Join bio and diversity."
+      },
+      {
+        "word": "horticulture",
+        "definition": "The art of growing gardens.",
+        "hint": "It begins with horti."
+      },
+      {
+        "word": "conservation",
+        "definition": "The protection of nature and resources.",
+        "hint": "It ends with vation."
+      },
+      {
+        "word": "environment",
+        "definition": "The surroundings in which something lives.",
+        "hint": "Keep the n before ment."
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "world": "Royal Gardens",
+    "words": [
+      {
+        "word": "resilience",
+        "definition": "The ability to recover after a difficulty.",
+        "hint": "It ends with ience."
+      },
+      {
+        "word": "extraordinary",
+        "definition": "Very unusual or remarkable.",
+        "hint": "Join extra and ordinary."
+      },
+      {
+        "word": "perseverance",
+        "definition": "Continuing to try despite difficulty.",
+        "hint": "It ends with ance."
+      },
+      {
+        "word": "effervescent",
+        "definition": "Bubbly and full of energy.",
+        "hint": "Double the f."
+      },
+      {
+        "word": "accomplishment",
+        "definition": "Something successfully achieved through effort.",
+        "hint": "Double the c."
+      }
+    ]
+  }
+]

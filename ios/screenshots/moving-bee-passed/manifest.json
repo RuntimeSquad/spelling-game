@@ -1,0 +1,26 @@
+[
+  {
+    "attachments" : [
+      {
+        "configurationName" : "Test Scheme Action",
+        "deviceId" : "58D2CA1A-267C-41C1-A04C-3D760A3B1E13",
+        "deviceName" : "iPhone 17 Pro",
+        "exportedFileName" : "B2B348CE-D982-413B-A7C8-F526F4C9D9ED.png",
+        "isAssociatedWithFailure" : false,
+        "suggestedHumanReadableName" : "Bee-arrived-level-two_0_CE13B51D-139A-48F0-B696-D4AD7FB6CEB9.png",
+        "timestamp" : 1795470925.241
+      },
+      {
+        "configurationName" : "Test Scheme Action",
+        "deviceId" : "58D2CA1A-267C-41C1-A04C-3D760A3B1E13",
+        "deviceName" : "iPhone 17 Pro",
+        "exportedFileName" : "9883A801-9877-4894-A07F-4D945215D79E.png",
+        "isAssociatedWithFailure" : false,
+        "suggestedHumanReadableName" : "Perfect-five-native_0_B703FC85-FDB4-4A0C-A6B5-830B19FB10C1.png",
+        "timestamp" : 1795470922.604
+      }
+    ],
+    "testIdentifier" : "SpellBeeUITests/testAdventureRound()",
+    "testIdentifierURL" : "test://com.apple.xcode/SpellBee/SpellBeeUITests/SpellBeeUITests/testAdventureRound"
+  }
+]

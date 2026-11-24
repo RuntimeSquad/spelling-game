@@ -1,0 +1,37 @@
+{
+  "project": "spell-bee-c218a",
+  "locale": "en-US",
+  "speakingRate": 1,
+  "words": [
+    "necessary",
+    "acquaintance",
+    "rhythm",
+    "foreign",
+    "laboratory",
+    "temperature",
+    "separate",
+    "conscience"
+  ],
+  "ssml": "<speak>necessary<break time=\"1200ms\"/>acquaintance<break time=\"1200ms\"/>rhythm<break time=\"1200ms\"/>foreign<break time=\"1200ms\"/>laboratory<break time=\"1200ms\"/>temperature<break time=\"1200ms\"/>separate<break time=\"1200ms\"/>conscience<break time=\"1200ms\"/></speak>",
+  "samples": [
+    {
+      "label": "A",
+      "voice": "en-US-Standard-C",
+      "file": "/Users/curtiscolly/development/apps/web/spellingGame/artifacts/voice-review/A-en-US-Standard-C.mp3",
+      "bytes": 111360
+    },
+    {
+      "label": "B",
+      "voice": "en-US-Neural2-F",
+      "file": "/Users/curtiscolly/development/apps/web/spellingGame/artifacts/voice-review/B-en-US-Neural2-F.mp3",
+      "bytes": 114240
+    },
+    {
+      "label": "C",
+      "voice": "en-US-Neural2-D",
+      "file": "/Users/curtiscolly/development/apps/web/spellingGame/artifacts/voice-review/C-en-US-Neural2-D.mp3",
+      "bytes": 111552
+    }
+  ],
+  "status": "Pending Curtis voice selection and pronunciation review"
+}

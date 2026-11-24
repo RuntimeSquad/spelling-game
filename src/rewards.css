@@ -1,0 +1,192 @@
+.reward-hub {
+  margin: 40px 0;
+  padding: clamp(20px, 4vw, 42px);
+}
+.club-heading,
+.level-label {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+.club-heading h2 {
+  margin: 8px 0;
+}
+.collectible {
+  font-size: 48px;
+  position: relative;
+  padding: 12px;
+}
+.collectible > span {
+  position: absolute;
+  top: -8px;
+  left: 30px;
+  font-size: 24px;
+}
+.bee-classic > span {
+  display: none;
+}
+.club-stats {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 12px;
+  margin: 24px 0;
+}
+.club-stats > div {
+  background: #f1f5ee;
+  padding: 18px;
+  border-radius: 14px;
+}
+.club-stats b {
+  font-size: 26px;
+  display: block;
+  color: #233d32;
+}
+.club-stats span {
+  font-size: 14px;
+}
+.reward-hub progress {
+  width: 100%;
+  height: 14px;
+  accent-color: #b17b22;
+  margin-top: 12px;
+}
+.level-label span {
+  font-size: 14px;
+}
+.badge-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 12px;
+  margin: 24px 0;
+}
+.club-badge {
+  border: 1px dashed #a6a99b;
+  border-radius: 14px;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.club-badge > span {
+  font-size: 28px;
+}
+.club-badge small,
+.outfit-options small {
+  font-size: 14px;
+}
+.club-badge.earned {
+  border-style: solid;
+  border-color: #b17b22;
+  background: #fff5d9;
+}
+.outfit-options {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.outfit-options button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.outfit-options [aria-pressed="true"] {
+  outline: 3px solid #b17b22;
+  outline-offset: 2px;
+}
+.practice-box {
+  border: 1px solid #a6a99b;
+  border-radius: 16px;
+  padding: 24px;
+  margin: 20px 0;
+}
+.practice-box input {
+  width: 100%;
+  margin-bottom: 12px;
+}
+.rival-list {
+  padding: 0;
+  list-style: none;
+}
+.rival-list li {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 12px 0;
+  border-bottom: 1px solid #d8ddcf;
+  flex-wrap: wrap;
+}
+.round-cheer {
+  color: #315b43;
+  font-weight: 600;
+}
+.answer-word .letter-match,
+.answer-word .letter-correction {
+  display: inline;
+  font: inherit;
+  margin: 0;
+}
+.answer-word .letter-correction {
+  color: #944023;
+  background: #ffedce;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+.animated-answers article {
+  animation: answer-reveal 0.5s both;
+}
+@keyframes answer-reveal {
+  from {
+    opacity: 0;
+    transform: perspective(600px) rotateX(-35deg) translateY(12px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+.answer-card {
+  position: relative;
+  overflow: hidden;
+}
+.confetti {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  pointer-events: none;
+}
+.confetti i {
+  position: absolute;
+  width: 8px;
+  height: 14px;
+  animation: bee-confetti 2s ease-out both;
+}
+@keyframes bee-confetti {
+  from {
+    transform: translateY(-20px) rotate(0);
+    opacity: 1;
+  }
+  to {
+    transform: translateY(500px) rotate(540deg);
+    opacity: 0;
+  }
+}
+@media (max-width: 650px) {
+  .club-stats,
+  .badge-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .club-stats > div {
+    padding: 12px;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .animated-answers article {
+    animation: none;
+  }
+  .confetti {
+    display: none;
+  }
+}

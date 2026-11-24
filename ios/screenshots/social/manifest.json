@@ -1,0 +1,17 @@
+[
+  {
+    "attachments" : [
+      {
+        "configurationName" : "Test Scheme Action",
+        "deviceId" : "58D2CA1A-267C-41C1-A04C-3D760A3B1E13",
+        "deviceName" : "iPhone 17 Pro",
+        "exportedFileName" : "7F1504DD-DD26-46D6-96EE-7C05714935F2.png",
+        "isAssociatedWithFailure" : false,
+        "suggestedHumanReadableName" : "Native-private-team_0_DEEC1F30-A6AC-4403-844E-4B55122A33EC.png",
+        "timestamp" : 1795307652.091
+      }
+    ],
+    "testIdentifier" : "SpellBeeUITests/testOnlineModes()",
+    "testIdentifierURL" : "test://com.apple.xcode/SpellBee/SpellBeeUITests/SpellBeeUITests/testOnlineModes"
+  }
+]

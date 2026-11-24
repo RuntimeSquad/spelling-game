@@ -1,0 +1,388 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		019BB009E2F9598A0BA23C85 /* SpellBee/Sources/SocialViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2F094CCE44EC0B4A7EE3911 /* SpellBee/Sources/SocialViews.swift */; };
+		1F4A158628E6E99FCEE6B325 /* SpellBee/Resources/PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = B7BAD5E5A4737FE4BAD9A416 /* SpellBee/Resources/PrivacyInfo.xcprivacy */; };
+		28230531464656997EB1A04D /* SpellBee/Sources/Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02AB0F99545B7BE6387D856F /* SpellBee/Sources/Theme.swift */; };
+		34FAAFB75B6FBEAF36E174D9 /* SpellBee/Sources/SpellBeeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53D312C06F1CF9FFF8413930 /* SpellBee/Sources/SpellBeeApp.swift */; };
+		4B3889B7096EA63DAB88ECEC /* SpellBee/Sources/DuoLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69595E20AC7089E4CD1A55F /* SpellBee/Sources/DuoLayout.swift */; };
+		757BFE1E2216B008F45C0A0B /* SpellBee/Sources/GameStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01697CCCE4CE1DAE4B2CD024 /* SpellBee/Sources/GameStore.swift */; };
+		8CF0B0C3C9A0D4AE75B4E196 /* SpellBee/Sources/GameAudio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86AB1D93C9150984254889BF /* SpellBee/Sources/GameAudio.swift */; };
+		8F69D2603037B23E80BB9FA3 /* SpellBeeUITests/SpellBeeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 890A6C6AC91737902635B620 /* SpellBeeUITests/SpellBeeUITests.swift */; };
+		C0D664C205A4FC9FE9047266 /* SpellBee/Sources/SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68A18B05EA5E470EDA6325CA /* SpellBee/Sources/SettingsView.swift */; };
+		D536CE6964342C50948BEB98 /* SpellBee/Sources/Core/DuoGeometry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38CC8EB5CA148F2E2DF46E13 /* SpellBee/Sources/Core/DuoGeometry.swift */; };
+		DDC985CCA40E1674A197ABFE /* SpellBee/Resources/Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E30CD7DF2868C0C3C0E32A62 /* SpellBee/Resources/Assets.xcassets */; };
+		DDE1BFF36D0E766FDCA347F8 /* SpellBee/Sources/Core/GameCore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FAD4BEE06A5D53469E7C48E /* SpellBee/Sources/Core/GameCore.swift */; };
+		F1DBE75D4B2CED27DD0A032A /* SpellBee/Sources/OnlineGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E08C74298601B824CA9329E /* SpellBee/Sources/OnlineGame.swift */; };
+		FA7A6A5BA55A3F6E341CF2F3 /* SpellBee/Resources/adventure.json in Resources */ = {isa = PBXBuildFile; fileRef = FA4255E22E77A2FAADFA4296 /* SpellBee/Resources/adventure.json */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D799BAE6088A90139B415FCC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 98F54143AB4E86B28C3AFEE0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0E8A3AD980EC179856012B7E;
+			remoteInfo = SpellBee;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01697CCCE4CE1DAE4B2CD024 /* SpellBee/Sources/GameStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpellBee/Sources/GameStore.swift; sourceTree = "<group>"; };
+		02AB0F99545B7BE6387D856F /* SpellBee/Sources/Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpellBee/Sources/Theme.swift; sourceTree = "<group>"; };
+		38A007151ABE87CC01A5B6E9 /* SpellBee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; path = SpellBee.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		38CC8EB5CA148F2E2DF46E13 /* SpellBee/Sources/Core/DuoGeometry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpellBee/Sources/Core/DuoGeometry.swift; sourceTree = "<group>"; };
+		3FAD4BEE06A5D53469E7C48E /* SpellBee/Sources/Core/GameCore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpellBee/Sources/Core/GameCore.swift; sourceTree = "<group>"; };
+		53D312C06F1CF9FFF8413930 /* SpellBee/Sources/SpellBeeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpellBee/Sources/SpellBeeApp.swift; sourceTree = "<group>"; };
+		68A18B05EA5E470EDA6325CA /* SpellBee/Sources/SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpellBee/Sources/SettingsView.swift; sourceTree = "<group>"; };
+		86AB1D93C9150984254889BF /* SpellBee/Sources/GameAudio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpellBee/Sources/GameAudio.swift; sourceTree = "<group>"; };
+		890A6C6AC91737902635B620 /* SpellBeeUITests/SpellBeeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpellBeeUITests/SpellBeeUITests.swift; sourceTree = "<group>"; };
+		9E08C74298601B824CA9329E /* SpellBee/Sources/OnlineGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpellBee/Sources/OnlineGame.swift; sourceTree = "<group>"; };
+		B7480EC88B7F22D0A4757273 /* SpellBeeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; path = SpellBeeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7BAD5E5A4737FE4BAD9A416 /* SpellBee/Resources/PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = SpellBee/Resources/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		C69595E20AC7089E4CD1A55F /* SpellBee/Sources/DuoLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpellBee/Sources/DuoLayout.swift; sourceTree = "<group>"; };
+		E2F094CCE44EC0B4A7EE3911 /* SpellBee/Sources/SocialViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpellBee/Sources/SocialViews.swift; sourceTree = "<group>"; };
+		E30CD7DF2868C0C3C0E32A62 /* SpellBee/Resources/Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = SpellBee/Resources/Assets.xcassets; sourceTree = "<group>"; };
+		FA4255E22E77A2FAADFA4296 /* SpellBee/Resources/adventure.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = SpellBee/Resources/adventure.json; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7561BFB015D8F536760CB671 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B28B7AF69320201D1CF206EB = {
+			isa = PBXGroup;
+			children = (
+				38CC8EB5CA148F2E2DF46E13 /* SpellBee/Sources/Core/DuoGeometry.swift */,
+				3FAD4BEE06A5D53469E7C48E /* SpellBee/Sources/Core/GameCore.swift */,
+				C69595E20AC7089E4CD1A55F /* SpellBee/Sources/DuoLayout.swift */,
+				86AB1D93C9150984254889BF /* SpellBee/Sources/GameAudio.swift */,
+				01697CCCE4CE1DAE4B2CD024 /* SpellBee/Sources/GameStore.swift */,
+				9E08C74298601B824CA9329E /* SpellBee/Sources/OnlineGame.swift */,
+				68A18B05EA5E470EDA6325CA /* SpellBee/Sources/SettingsView.swift */,
+				E2F094CCE44EC0B4A7EE3911 /* SpellBee/Sources/SocialViews.swift */,
+				53D312C06F1CF9FFF8413930 /* SpellBee/Sources/SpellBeeApp.swift */,
+				02AB0F99545B7BE6387D856F /* SpellBee/Sources/Theme.swift */,
+				FA4255E22E77A2FAADFA4296 /* SpellBee/Resources/adventure.json */,
+				B7BAD5E5A4737FE4BAD9A416 /* SpellBee/Resources/PrivacyInfo.xcprivacy */,
+				E30CD7DF2868C0C3C0E32A62 /* SpellBee/Resources/Assets.xcassets */,
+				890A6C6AC91737902635B620 /* SpellBeeUITests/SpellBeeUITests.swift */,
+				FBDC4F23F93125BBEEAE800C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FBDC4F23F93125BBEEAE800C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				38A007151ABE87CC01A5B6E9 /* SpellBee.app */,
+				B7480EC88B7F22D0A4757273 /* SpellBeeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0A06C5E2DA34E686D888A695 /* SpellBeeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57950A58A4374066B2AF45DD /* Build configuration list for PBXNativeTarget "SpellBeeUITests" */;
+			buildPhases = (
+				7CB9C5DBBDFFE89694C24C30 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DE58E2B17C19600779694943 /* PBXTargetDependency */,
+			);
+			name = SpellBeeUITests;
+			productName = SpellBeeUITests;
+			productReference = B7480EC88B7F22D0A4757273 /* SpellBeeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		0E8A3AD980EC179856012B7E /* SpellBee */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3ADB3100893F0122E432328D /* Build configuration list for PBXNativeTarget "SpellBee" */;
+			buildPhases = (
+				BCE16DD0260827ECF338C787 /* Sources */,
+				7561BFB015D8F536760CB671 /* Frameworks */,
+				0189424A5A60FED329FA868E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpellBee;
+			productName = SpellBee;
+			productReference = 38A007151ABE87CC01A5B6E9 /* SpellBee.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		98F54143AB4E86B28C3AFEE0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 2700;
+				TargetAttributes = {
+					0A06C5E2DA34E686D888A695 = {
+						CreatedOnToolsVersion = 27.2;
+						TestTargetID = 0E8A3AD980EC179856012B7E;
+					};
+					0E8A3AD980EC179856012B7E = {
+						CreatedOnToolsVersion = 27.2;
+					};
+				};
+			};
+			buildConfigurationList = FBD3510CED826C9DAA696E48 /* Build configuration list for PBXProject "SpellBee" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B28B7AF69320201D1CF206EB;
+			productRefGroup = FBDC4F23F93125BBEEAE800C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0E8A3AD980EC179856012B7E /* SpellBee */,
+				0A06C5E2DA34E686D888A695 /* SpellBeeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0189424A5A60FED329FA868E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA7A6A5BA55A3F6E341CF2F3 /* SpellBee/Resources/adventure.json in Resources */,
+				1F4A158628E6E99FCEE6B325 /* SpellBee/Resources/PrivacyInfo.xcprivacy in Resources */,
+				DDC985CCA40E1674A197ABFE /* SpellBee/Resources/Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7CB9C5DBBDFFE89694C24C30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F69D2603037B23E80BB9FA3 /* SpellBeeUITests/SpellBeeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCE16DD0260827ECF338C787 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D536CE6964342C50948BEB98 /* SpellBee/Sources/Core/DuoGeometry.swift in Sources */,
+				DDE1BFF36D0E766FDCA347F8 /* SpellBee/Sources/Core/GameCore.swift in Sources */,
+				4B3889B7096EA63DAB88ECEC /* SpellBee/Sources/DuoLayout.swift in Sources */,
+				8CF0B0C3C9A0D4AE75B4E196 /* SpellBee/Sources/GameAudio.swift in Sources */,
+				757BFE1E2216B008F45C0A0B /* SpellBee/Sources/GameStore.swift in Sources */,
+				F1DBE75D4B2CED27DD0A032A /* SpellBee/Sources/OnlineGame.swift in Sources */,
+				C0D664C205A4FC9FE9047266 /* SpellBee/Sources/SettingsView.swift in Sources */,
+				019BB009E2F9598A0BA23C85 /* SpellBee/Sources/SocialViews.swift in Sources */,
+				34FAAFB75B6FBEAF36E174D9 /* SpellBee/Sources/SpellBeeApp.swift in Sources */,
+				28230531464656997EB1A04D /* SpellBee/Sources/Theme.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DE58E2B17C19600779694943 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0E8A3AD980EC179856012B7E /* SpellBee */;
+			targetProxy = D799BAE6088A90139B415FCC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5A8C91857F674E16E2724F47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 2K753382W4;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_TESTABILITY = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SpellBee/Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.spellbee.snaap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		89E1FD6268CC0F221A2BE178 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		942EEBBACD6C88CAE7F29B29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_TESTABILITY = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.spellbee.native.preview.tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SpellBee;
+			};
+			name = Release;
+		};
+		E6DE6C99132752C914FEF632 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_TESTABILITY = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		E9B2E96ABC5F6856F2BE79CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 2K753382W4;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_TESTABILITY = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SpellBee/Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.spellbee.snaap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FCB48D8F88BCDB0ED9FADFD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.spellbee.native.preview.tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SpellBee;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3ADB3100893F0122E432328D /* Build configuration list for PBXNativeTarget "SpellBee" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9B2E96ABC5F6856F2BE79CF /* Debug */,
+				5A8C91857F674E16E2724F47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57950A58A4374066B2AF45DD /* Build configuration list for PBXNativeTarget "SpellBeeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCB48D8F88BCDB0ED9FADFD7 /* Debug */,
+				942EEBBACD6C88CAE7F29B29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBD3510CED826C9DAA696E48 /* Build configuration list for PBXProject "SpellBee" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89E1FD6268CC0F221A2BE178 /* Debug */,
+				E6DE6C99132752C914FEF632 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 98F54143AB4E86B28C3AFEE0 /* Project object */;
+}

@@ -1,0 +1,17 @@
+[
+  {
+    "attachments" : [
+      {
+        "configurationName" : "Test Scheme Action",
+        "deviceId" : "E5A7B155-852E-4601-B7BD-D895F3AFE572",
+        "deviceName" : "iPad mini (A17 Pro)",
+        "exportedFileName" : "5FAB566F-A1AC-41A1-9EE5-82EB25D5C5D7.png",
+        "isAssociatedWithFailure" : false,
+        "suggestedHumanReadableName" : "Expanded-native-garden_0_911194D4-D45F-4DA7-B163-69338E9D18E2.png",
+        "timestamp" : 1795307773.975
+      }
+    ],
+    "testIdentifier" : "SpellBeeUITests/testExpandedGardenLayout()",
+    "testIdentifierURL" : "test://com.apple.xcode/SpellBee/SpellBeeUITests/SpellBeeUITests/testExpandedGardenLayout"
+  }
+]

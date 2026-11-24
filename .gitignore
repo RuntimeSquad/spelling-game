@@ -1,0 +1,22 @@
+node_modules/
+dist/
+functions/lib/
+functions/assets/
+.local/
+*-debug.log
+*-debug.*.log
+.env*
+!.env.example
+.DS_Store
+
+firebase-export-*/
+
+dist-production/
+
+artifacts/production-review/
+
+# Native iPhone build outputs
+ios/.build/
+ios/SpellBee/.build/
+ios/*.xcresult/
+ios/SpellBee.xcodeproj/xcuserdata/

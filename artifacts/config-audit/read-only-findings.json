@@ -1,0 +1,64 @@
+{
+  "project": "spell-bee-c218a",
+  "checks": {
+    "appCheckServices": {
+      "ok": false,
+      "message": "Request to https://firebaseappcheck.googleapis.com/v1/projects/704864382098/services had HTTP Error: 403, Firebase App Check API has not been used in project spell-bee-c218a before or it is disabled. Enable it by visiting https://console.developers.google.com/apis/api/firebaseappcheck.googleapis.com/overview?project=spell-bee-c218a then retry. If you enabled this API recently, wait a few minutes for the action to propagate to our systems and retry."
+    },
+    "auth": {
+      "ok": false,
+      "message": "Request to https://identitytoolkit.googleapis.com/admin/v2/projects/spell-bee-c218a/config had HTTP Error: 404, CONFIGURATION_NOT_FOUND"
+    },
+    "buckets": {
+      "ok": true,
+      "result": {}
+    },
+    "hostingReleases": {
+      "ok": true,
+      "result": {}
+    },
+    "analytics": {
+      "ok": true,
+      "result": {
+        "analyticsProperty": {
+          "id": "561353528",
+          "displayName": "spell-bee-c218a",
+          "analyticsAccountId": "413900045"
+        }
+      }
+    },
+    "rulesReleases": {
+      "ok": true,
+      "result": {
+        "releases": [
+          {
+            "name": "projects/spell-bee-c218a/releases/cloud.firestore",
+            "rulesetName": "projects/spell-bee-c218a/rulesets/00fdefa9-840c-4864-9fb4-76827fc66732",
+            "createTime": "2026-10-29T00:02:40.903122Z",
+            "updateTime": "2026-10-29T00:02:40.903122Z"
+          }
+        ]
+      }
+    },
+    "firestoreRules": {
+      "ok": true,
+      "result": {
+        "name": "projects/spell-bee-c218a/rulesets/00fdefa9-840c-4864-9fb4-76827fc66732",
+        "source": {
+          "files": [
+            {
+              "content": "rules_version = '2';\n\nservice cloud.firestore {\n  match /databases/{database}/documents {\n\n    // This rule allows anyone with your Firestore database reference to view, edit,\n    // and delete all data in your Firestore database. It is useful for getting\n    // started, but it is configured to expire after 30 days because it\n    // leaves your app open to attackers. At that time, all client\n    // requests to your Firestore database will be denied.\n    //\n    // Make sure to write security rules for your app before that time, or else\n    // all client requests to your Firestore database will be denied until you Update\n    // your rules\n    match /{document=**} {\n      allow read, write: if request.time < timestamp.date(2026, 11, 27);\n    }\n  }\n}",
+              "name": "firestore.rules"
+            }
+          ]
+        },
+        "createTime": "2026-10-29T00:02:40.315312Z",
+        "metadata": {
+          "services": [
+            "cloud.firestore"
+          ]
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "project": "spell-bee-c218a",
+  "serviceAccount": "spellbee-runtime@spell-bee-c218a.iam.gserviceaccount.com",
+  "createServiceAccountKeys": false,
+  "projectRoles": ["roles/datastore.user"],
+  "customRole": {
+    "roleId": "spellbeeUserLifecycle",
+    "title": "Spell-Bee user lifecycle",
+    "includedPermissions": [
+      "firebaseauth.users.get",
+      "firebaseauth.users.update",
+      "firebaseauth.users.delete"
+    ],
+    "stage": "GA"
+  },
+  "bucketRole": {
+    "bucket": "spell-bee-c218a.firebasestorage.app",
+    "role": "roles/storage.objectViewer",
+    "prefix": "audio/"
+  },
+  "excluded": [
+    "Project Editor",
+    "Project Owner",
+    "Firebase Auth Admin",
+    "IAM administration",
+    "service account keys",
+    "audio uploads by runtime"
+  ]
+}
