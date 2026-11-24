@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Contact Spell-Bee support for questions, game help, technical support, or privacy requests.">
+  <meta name="theme-color" content="#fff9e9">
+  <title>Spell-Bee Support</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --background: #fff9e9;
+      --surface: #ffffff;
+      --text: #302b1c;
+      --muted: #6b6555;
+      --accent: #735000;
+      --border: #ebe2c8;
+    }
+    * { box-sizing: border-box; }
+    body {
+      min-height: 100vh;
+      min-height: 100svh;
+      margin: 0;
+      display: grid;
+      place-items: center;
+      padding: 24px;
+      background: radial-gradient(circle at top, #fff0bc 0, var(--background) 42%);
+      color: var(--text);
+      font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      line-height: 1.6;
+    }
+    main {
+      width: min(600px, 100%);
+      padding: clamp(32px, 7vw, 64px);
+      text-align: center;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 24px;
+      box-shadow: 0 20px 55px rgba(91, 72, 35, .12);
+    }
+    .mark {
+      width: 64px;
+      height: 64px;
+      margin: 0 auto 22px;
+      display: grid;
+      place-items: center;
+      border-radius: 20px;
+      background: #fff2c9;
+      font-size: 32px;
+    }
+    .eyebrow {
+      margin: 0 0 8px;
+      color: var(--accent);
+      font-size: .78rem;
+      font-weight: 750;
+      letter-spacing: .12em;
+      text-transform: uppercase;
+    }
+    h1 {
+      margin: 0 0 14px;
+      font-size: clamp(2rem, 7vw, 3rem);
+      line-height: 1.1;
+      letter-spacing: -.035em;
+    }
+    p { margin: 0 auto; color: var(--muted); }
+    .email {
+      display: inline-block;
+      max-width: 100%;
+      overflow-wrap: anywhere;
+      margin: 28px 0 12px;
+      padding: 13px 22px;
+      border-radius: 999px;
+      background: var(--accent);
+      color: #fff;
+      font-weight: 700;
+      text-decoration: none;
+    }
+    .email:hover { background: #593d00; }
+    .email:focus-visible { outline: 3px solid #b98400; outline-offset: 4px; }
+    .note { font-size: .92rem; }
+    @media print {
+      body { min-height: auto; padding: 0; background: #fff; }
+      main { width: 100%; border: 0; box-shadow: none; }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <div class="mark" aria-hidden="true">🐝</div>
+    <p class="eyebrow">Spell-Bee</p>
+    <h1>How can we help?</h1>
+    <p>For questions, game help, technical support, or privacy requests, email the Spell-Bee support team.</p>
+    <a class="email" href="mailto:runtimesquad@gmail.com?subject=Spell-Bee%20Support">runtimesquad@gmail.com</a>
+    <p class="note">We’ll respond as soon as we can.</p>
+  </main>
+</body>
+</html>
